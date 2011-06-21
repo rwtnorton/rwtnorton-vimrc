@@ -2,7 +2,7 @@ filetype indent on
 set et
 set ts=8 sts=4 sw=4
 set ruler
-set textwidth=78
+set textwidth=80
 set nohlsearch
 set scrolloff=0
 set nofoldenable
