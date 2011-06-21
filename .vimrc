@@ -17,10 +17,10 @@ hi String       ctermfg=red
 hi Constant     ctermfg=blue
 
 "
-" Make EOL-whitespace and tabs stand out in visually painful ways.
+" Make EOL-whitespace and tabs stand out.
 " Toggle with ':set list!'.
 "
-hi SpecialKey   ctermfg=white ctermbg=red
+hi SpecialKey   ctermfg=white ctermbg=blue
 set listchars=tab:>-,trail:.
 set list
 
