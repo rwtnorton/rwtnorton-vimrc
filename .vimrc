@@ -25,6 +25,8 @@ set listchars=tab:>-,trail:.
 set list
 
 "
-" Override defaults for Ruby, HTML, and CSS.
+" Be specific about tabs in certain languages.
 "
 au FileType ruby,html,erb,eruby,css set ts=8 sts=2 sw=2
+au FileType perl,python set ts=4 sts=4 sw=4
+au FileType go,c set ts=8 sts=8 sw=8 noet
